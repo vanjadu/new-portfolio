@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vanja Dulikravic" />
+    <link rel="icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <title>Vanja Dulikravic: Front End & React Developer</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html">
+        <img
+          src="./assets//logo.png"
+          alt="Vanja Dulikravic"
+          class="navbar__logo"
+        />
+      </a>
+      <nav class="navbar__nav">
+        <a href="#hero" class="navbar__link">Home</a>
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+      </nav>
+      <div class="navbar__burger">
+        <div class="navbar__burger-line"></div>
+        <div class="navbar__burger-line"></div>
+        <div class="navbar__burger-line"></div>
+      </div>
+    </header>
+    <div class="alter">
+      <div class="alter__links">
+        <a href="#hero" class="alter__link">Home</a>
+        <a href="#about" class="alter__link">About</a>
+        <a href="#projects" class="alter__link">Projects</a>
+        <a href="#contact" class="alter__link">Contact</a>
+      </div>
+      <div class="alter__socials">
+        <p class="alter__title">Follow me</p>
+        <a
+          href="https://github.com/vanjadu"
+          target="_blank"
+          rel="no-referrer"
+          class="alter__icon"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/dulikravicvanja/"
+          target="_blank"
+          rel="no-referrer"
+          class="alter__icon"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <div class="alter__contact">
+        <p class="alter__title">Contact me</p>
+        <a href="mailto:dulikravicvanja10@gmail.com" class="alter__c-link"
+          >dulikravicvanja10@gmail.com</a
+        >
+      </div>
+    </div>
+    <main>
+      <section class="hero" id="hero">
+        <p class="hero__subtitle">Hello, I'm Vanja</p>
+        <h1 class="hero__title">Front-End Developer</h1>
+        <p class="hero__desc">
+          Through constant practice & learning, I produce aesthetic software to
+          an exceedingly high standard.
+        </p>
+        <a href="#" class="hero__cta">Download CV</a>
+
+        <!-- back image -->
+        <div class="hero__image-container">
+          <img
+            src="./assets/hero.jpg"
+            alt="Vanja Dulikravic"
+            class="hero__image"
+          />
+        </div>
+        <div class="hero__socials">
+          <a
+            href="https://github.com/vanjadu"
+            target="_blank"
+            rel="no-referrer"
+            class="hero__icon"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/dulikravicvanja/"
+            target="_blank"
+            rel="no-referrer"
+            class="hero__icon"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about__card">
+          <p class="about__icon">
+            <i class="fa-brands fa-react"></i>
+          </p>
+          <h4 class="about__title">React</h4>
+          <p class="about__desc">My framework of choice for major projects.</p>
+        </div>
+        <div class="about__card">
+          <p class="about__icon">
+            <i class="fa-brands fa-sass"></i>
+          </p>
+          <h4 class="about__title">SASS</h4>
+          <p class="about__desc">
+            CSS preprocessor that makes my workflow faster.
+          </p>
+        </div>
+        <div class="about__card">
+          <p class="about__icon">
+            <i class="fa-brands fa-git-alt"></i>
+          </p>
+          <h4 class="about__title">React</h4>
+          <p class="about__desc">
+            Using version control to work alongside teammates on sizeable
+            projects.
+          </p>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="projects__header">
+          <div class="projects__text">
+            <h2 class="projects__title">Recent projects</h2>
+            <p class="projects__desc">
+              Here are some of my recent projects. I'm always looking for new
+              opportunities to work on exciting projects.
+            </p>
+          </div>
+          <a
+            href="https://github.com/vanjadu"
+            target="_blank"
+            rel="no-referrer"
+            class="projects__cta"
+            >See all</a
+          >
+        </div>
+        <div class="projects__container">
+          <a
+            href="https://github.com/vanjadu/cactus-v2"
+            target="_blank"
+            rel="no-referrer"
+          >
+            <div class="projects__card">
+              <div class="projects__image-container">
+                <img
+                  src="./assets/projects/01.png"
+                  alt="#"
+                  class="projects__image"
+                />
+              </div>
+              <h4 class="projects__card-title">Cactus - React & Firebase</h4>
+              <p class="projects__card-cta">
+                See more
+                <span><i class="fa-solid fa-square-arrow-up-right"></i></span>
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/vanjadu/sinatra"
+            target="_blank"
+            rel="no-referrer"
+          >
+            <div class="projects__card">
+              <div class="projects__image-container">
+                <img
+                  src="./assets/projects/02.png"
+                  alt="#"
+                  class="projects__image"
+                />
+              </div>
+              <h4 class="projects__card-title">Sinatra - React & Firebase</h4>
+              <p class="projects__card-cta">
+                See more
+                <span><i class="fa-solid fa-square-arrow-up-right"></i></span>
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Dejan85/Vinarija"
+            target="_blank"
+            rel="no-referrer"
+          >
+            <div class="projects__card">
+              <div class="projects__image-container">
+                <img
+                  src="./assets/projects/03.png"
+                  alt="#"
+                  class="projects__image"
+                />
+              </div>
+              <h4 class="projects__card-title">Rnjak - React & Node</h4>
+              <p class="projects__card-cta">
+                See more
+                <span><i class="fa-solid fa-square-arrow-up-right"></i></span>
+              </p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/vanjadu/github-api"
+            target="_blank"
+            rel="no-referrer"
+          >
+            <div class="projects__card">
+              <div class="projects__image-container">
+                <img
+                  src="./assets/projects/04.png"
+                  alt="#"
+                  class="projects__image"
+                />
+              </div>
+              <h4 class="projects__card-title">GitHub API - React</h4>
+              <p class="projects__card-cta">
+                See more
+                <span>
+                  <i class="fa-solid fa-square-arrow-up-right"></i>
+                </span>
+              </p>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact__container">
+          <div class="contact__text">
+            <h1 class="contact__title">
+              Let's work together on your next project
+            </h1>
+            <p class="contact__desc">
+              Shoot me a message to arrange a chat about your idea.
+            </p>
+          </div>
+          <a href="mailto:dulikravicvanja10@gmail.com" class="contact__cta"
+            >Contact</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img
+        src="./assets/logo.png"
+        alt="Vanja Dulikrravic"
+        class="footer__logo"
+      />
+      <div class="footer__socials">
+        <a
+          href="https://github.com/vanjadu"
+          target="_blank"
+          rel="no-referrer"
+          class="footer__icon"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/dulikravicvanja/"
+          target="_blank"
+          rel="no-referrer"
+          class="footer__icon"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <a
+        href="https://github.com/vanjadu"
+        target="_blank"
+        rel="no-referrer"
+        class="footer__cta"
+      >
+        Vanja &copy; 2022.
+      </a>
+    </footer>
+  </body>
+
+  <!-- js -->
+  <script src="./js/script.js"></script>
+</html>
