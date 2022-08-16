@@ -359,7 +359,7 @@ span {
 }
 .projects__card {
   width: 450px;
-  height: 400px;
+  min-height: 400px;
   overflow: hidden;
   border-radius: 0.5rem;
 }
