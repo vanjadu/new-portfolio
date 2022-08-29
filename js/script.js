@@ -17,3 +17,12 @@ burger.addEventListener('click', function () {
   this.classList.toggle('active')
   alterNav.classList.toggle('open')
 })
+
+const alterLinks = [...document.querySelectorAll('.alter__link')]
+
+alterLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    alterNav.classList.remove('open')
+    burger.classList.remove('active')
+  })
+})
